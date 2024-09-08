@@ -26,9 +26,7 @@ using { mycap2.CDSViews } from '../db/CDSViews';
 // }
 
  //test;
- //test2
-
- test3
+ //test2 git remote add origin https://github.com/JayaramuNH/maycap2.git
 
 
 service CatalogService @(path : 'CatalogService') {
