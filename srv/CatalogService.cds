@@ -26,6 +26,7 @@ using { mycap2.CDSViews } from '../db/CDSViews';
 // }
 
  //test;
+ //test2
 
 
 service CatalogService @(path : 'CatalogService') {
