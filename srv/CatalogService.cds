@@ -28,6 +28,8 @@ using { mycap2.CDSViews } from '../db/CDSViews';
  //test;
  //test2
 
+ test3
+
 
 service CatalogService @(path : 'CatalogService') {
     //@Capabilities.Updatable: false
