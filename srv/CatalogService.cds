@@ -25,7 +25,7 @@ using { mycap2.CDSViews } from '../db/CDSViews';
 
 // }
 
- 
+ //test;
 
 
 service CatalogService @(path : 'CatalogService') {
@@ -68,8 +68,8 @@ service CatalogService @(path : 'CatalogService') {
     };
     
     entity ProductSet as projection on db.master.product;
-    //entity PurchaseOrderSet as projection on cds.CDSViews.POWorklist;
+    // entity PurchaseOrderSet as projection on cds.CDSViews.POWorklist;
     //entity ItemView as projection on cds.CDSViews.ItemView;
-    //entity ProductSet as projection on cds.CDSViews.ProductView;
+    // entity ProductSet as projection on cds.CDSViews.ProductView;
     ///entity ProductSales as projection on cds.CDSViews.CProductValuesView;
 }
